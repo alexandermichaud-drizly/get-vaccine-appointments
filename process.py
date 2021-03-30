@@ -1,6 +1,5 @@
 import sys
 import json 
-import subprocess
 from time import sleep, localtime
 
 locations = json.load(sys.stdin)['responsePayloadData']['data']['MA']
